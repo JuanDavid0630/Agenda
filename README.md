@@ -49,3 +49,15 @@ Sub Inicio()
     End If 
 End Sub
 ```
+```
+Sub Registro()
+    Fila = Datos.Cells(1, 6)
+    Datos.Cells(Fila, 1) = Registro.Cells(7, 5)
+    Datos.Cells(Fila, 2) = Registro.Cells(9, 5)
+    Datos.Cells(Fila, 3) = Registro.Cells(11, 5)
+    Datos.Cells(Fila, 4) = Registro.Cells(13, 5)
+    MsgBox "Datos Guardados"
+    
+    
+End Sub
+```
